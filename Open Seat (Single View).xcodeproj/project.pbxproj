@@ -12,6 +12,9 @@
 		8ECB3FEA219EC0B3007B4D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECB3FE8219EC0B3007B4D18 /* Main.storyboard */; };
 		8ECB3FEC219EC0B4007B4D18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECB3FEB219EC0B4007B4D18 /* Assets.xcassets */; };
 		8ECB3FEF219EC0B4007B4D18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECB3FED219EC0B4007B4D18 /* LaunchScreen.storyboard */; };
+		8ECB3FFB219EC5CB007B4D18 /* firstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECB3FFA219EC5CB007B4D18 /* firstPage.swift */; };
+		8ECB3FFD219EC5DA007B4D18 /* secondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECB3FFC219EC5DA007B4D18 /* secondPage.swift */; };
+		8ECB3FFF219EC7AD007B4D18 /* Pager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECB3FFE219EC7AD007B4D18 /* Pager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		8ECB3FEB219EC0B4007B4D18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ECB3FEE219EC0B4007B4D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ECB3FF0219EC0B4007B4D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ECB3FFA219EC5CB007B4D18 /* firstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstPage.swift; sourceTree = "<group>"; };
+		8ECB3FFC219EC5DA007B4D18 /* secondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondPage.swift; sourceTree = "<group>"; };
+		8ECB3FFE219EC7AD007B4D18 /* Pager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,12 @@
 				8ECB3FE4219EC0B3007B4D18 /* AppDelegate.swift */,
 				8ECB3FE6219EC0B3007B4D18 /* ViewController.swift */,
 				8ECB3FE8219EC0B3007B4D18 /* Main.storyboard */,
+				8ECB3FFA219EC5CB007B4D18 /* firstPage.swift */,
+				8ECB3FFC219EC5DA007B4D18 /* secondPage.swift */,
 				8ECB3FEB219EC0B4007B4D18 /* Assets.xcassets */,
 				8ECB3FED219EC0B4007B4D18 /* LaunchScreen.storyboard */,
 				8ECB3FF0219EC0B4007B4D18 /* Info.plist */,
+				8ECB3FFE219EC7AD007B4D18 /* Pager.swift */,
 			);
 			path = "Open Seat (Single View)";
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ECB3FFD219EC5DA007B4D18 /* secondPage.swift in Sources */,
 				8ECB3FE7219EC0B3007B4D18 /* ViewController.swift in Sources */,
+				8ECB3FFF219EC7AD007B4D18 /* Pager.swift in Sources */,
 				8ECB3FE5219EC0B3007B4D18 /* AppDelegate.swift in Sources */,
+				8ECB3FFB219EC5CB007B4D18 /* firstPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
